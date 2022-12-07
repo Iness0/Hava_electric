@@ -1,0 +1,138 @@
+#title {
+    text-align: center;
+    margin-top: 1rem;
+}
+body {
+    font-size: 16px;
+}
+footer {
+    font-size: 14px;
+    margin-top: 40px;
+    background-color: #FFCD3C;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    text-align: center;
+}
+.footnum {
+    text-align: right;
+    margin-right: 25px;
+    padding-top: 20px;
+}
+#main_logo {
+    width: 60%;
+    height: auto;
+}
+.navbar {
+    background-color: #FFCD3C;
+    padding: 0;
+}
+
+.nav-link{
+    display: block;
+    color: black;
+    margin: 0.2rem;
+
+}
+.nav-item {
+    border-right: 1px solid #FEFED5;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.nav-item:hover {
+    background-color: #FF9234;
+
+}
+h3 {
+    font-size: 3vw;
+}
+h5 {
+    font-size: 2vw;
+}
+h2 {
+
+}
+#photo {
+    background-image: url(big_photo.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: -2;
+}
+.photo {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: #FEFED5;
+
+}
+#photo::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+
+}
+.offer_big{
+    font-size: 3vw;
+    margin: 10px;
+    text-transform: uppercase;
+    display: block;
+}
+.offer_mid {
+    font-size: 2vw;
+    display: block;
+    margin-top: 20px;
+
+}
+
+.icon {
+    color: #FFCD3C
+}
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 15px;
+
+}
+.service {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+h2::after {
+    content: '';
+    height: 5px;
+    width: 170px;
+    background-color: #FF9234;
+    display: block;
+    margin-top: 15px;
+}
+.card-header {
+    background-color: #FEFED5;
+}
+.btn {
+    font-size: 20px;
+}
+#advantages {
+    margin-left: 15px;
+}
+.electric {
+    padding: 0;
+    margin: 0;
+}
+#example_img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 8px;
+}
