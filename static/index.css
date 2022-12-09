@@ -1,6 +1,6 @@
 #title {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 16px;
 }
 body {
     font-size: 16px;
@@ -44,10 +44,10 @@ footer {
 
 }
 h3 {
-    font-size: 3vw;
+    font-size: 18px;
 }
 h5 {
-    font-size: 2vw;
+    font-size: 16px;
 }
 h2 {
 
@@ -93,7 +93,14 @@ h2 {
     margin-top: 20px;
 
 }
-
+@media screen and (max-width: 750px) {
+    .offer_mid {
+        font-size: 3vw;
+    }
+    .offer_big {
+        font-size: 4vw;
+    }
+}
 .icon {
     color: #FFCD3C
 }
