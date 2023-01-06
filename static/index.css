@@ -8,7 +8,7 @@ body {
 footer {
     font-size: 14px;
     margin-top: 40px;
-    background-color: #FFCD3C;
+    background-color: #f5a742;
     padding-bottom: 5px;
     padding-top: 20px;
     text-align: center;
@@ -27,7 +27,7 @@ footer {
     width: 30%;
 }
 .navbar {
-    background-color: #FFCD3C;
+    background-color: #f5a742;
     padding: 0;
 }
 
