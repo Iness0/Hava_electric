@@ -24,7 +24,9 @@ footer {
     margin-bottom: 8px;
 }
 #main_logo {
-    width: 30%;
+    width: 50px;
+    height: auto;
+    margin-bottom: 8px;
 }
 .navbar {
     background-color: #f5a742;
